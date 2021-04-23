@@ -15,4 +15,9 @@ public class PrimeNumber {
             }
         return isPrime;
     }
+    public static void main(String[] args) {
+        PrimeNumber pm = new PrimeNumber();
+        System.out.println(pm.isPrime(7));
+        System.out.println(pm.isPrime(10));
+    }
 }

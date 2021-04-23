@@ -12,4 +12,9 @@ public class PalindromeCheck {
         return isPalindrome = false;
 return isPalindrome;
     }
+    public static void main(String[] args) {
+        PalindromeCheck pal = new PalindromeCheck();
+        System.out.println(pal.isPalindrome("abcba"));
+        System.out.println(pal.isPalindrome("Hello"));
+    }
 }
