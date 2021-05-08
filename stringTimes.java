@@ -6,7 +6,7 @@ public class stringTimes {
         for(int i=0;i<n;i++){
             count.add(str);
         }
-        return(count);
+        return count;
     }
     public static void main(String[] args) {
         stringTimes s = new stringTimes();
