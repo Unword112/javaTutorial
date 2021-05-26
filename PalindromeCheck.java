@@ -9,7 +9,7 @@ public class PalindromeCheck {
 	int n = 0;
 	int m = word.length() - 1;
 		if(word.charAt(n) != word.charAt(m)) 
-        return isPalindrome = false;
+            return isPalindrome = false;
 return isPalindrome;
     }
     public static void main(String[] args) {
